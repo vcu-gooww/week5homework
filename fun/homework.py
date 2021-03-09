@@ -7,7 +7,7 @@ def find_greatest_number(incoming_list):
     Find the largest number in the list.
     """
    largest_value = max(incoming_list)
-    return largest_value
+   return largest_value
    
 
 
