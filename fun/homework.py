@@ -27,8 +27,8 @@ def add_list_numbers(incoming_list):
     """
     if incoming_list is None:
         return 0
-    Total_value = sum(incoming_list)
-    return Total_value
+    total_value = sum(incoming_list)
+    return total_value
         
 
 
@@ -41,6 +41,6 @@ def longest_value_key(incoming_dict):
     if incoming_dict is not None:
         if len(incoming_dict) == 0:
             return None
-        value_key = max(incoming_dict, key=lambda k: len(incoming_dict[k]))
-        return value_key
+        final_key = max(incoming_dict, key=lambda k: len(incoming_dict[k]))
+        return fianal_key
     return None
