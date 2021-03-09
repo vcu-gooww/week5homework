@@ -41,6 +41,6 @@ def longest_value_key(incoming_dict):
     if incoming_dict is not None:
         if len(incoming_dict) == 0:
             return None
-        key = max(incoming_dict, key=lambda k: len(incoming_dict[k]))
-        return key
+        value_key = max(incoming_dict, key=lambda k: len(incoming_dict[k]))
+        return value_key
     return None
