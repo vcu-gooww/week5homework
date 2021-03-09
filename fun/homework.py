@@ -6,8 +6,8 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    greatest_value = max(incoming_list)
-    return greatest_value
+   largest_value = max(incoming_list)
+    return largest_value
    
 
 
@@ -18,6 +18,7 @@ def find_least_number(incoming_list):
     """
     smallest_value = min(incoming_list)
     return smallest_value
+
 
 def add_list_numbers(incoming_list):
     """
